@@ -8,13 +8,13 @@ A Python package for spatial dynamics analysis of cell neighborhoods in biologic
 ## Applications
 This function is particularly valuable for:
 
-Tissue microenvironment analysis: Understanding how multiple cell types co-localize
+`Tissue microenvironment analysis`: Understanding how multiple cell types co-localize
 
-Spatial biomarker discovery: Identifying significant multi-cell-type neighborhoods
+`Spatial biomarker discovery`: Identifying significant multi-cell-type neighborhoods
 
-Comparative studies: Quantifying differences in spatial organization between conditions
+`Comparative studies`: Quantifying differences in spatial organization between conditions
 
-Statistical validation: Testing whether observed patterns deviate from random arrangements
+`Statistical validation`: Testing whether observed patterns deviate from random arrangements
 
 ## Overview
 
