@@ -1,4 +1,7 @@
 # Spatial Dynamics
+[![PyPI version](https://badge.fury.io/py/spatial-dynamics.svg)](https://badge.fury.io/py/spatial-dynamics)
+[![Python Support](https://img.shields.io/pypi/pyversions/spatial-dynamics.svg)](https://pypi.org/project/spatial-dynamics/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A Python package for spatial dynamics analysis of cell neighborhoods in biological data.
 
