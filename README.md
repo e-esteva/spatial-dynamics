@@ -9,8 +9,11 @@ A Python package for spatial dynamics analysis of cell neighborhoods in biologic
 This function is particularly valuable for:
 
 Tissue microenvironment analysis: Understanding how multiple cell types co-localize
+
 Spatial biomarker discovery: Identifying significant multi-cell-type neighborhoods
+
 Comparative studies: Quantifying differences in spatial organization between conditions
+
 Statistical validation: Testing whether observed patterns deviate from random arrangements
 
 ## Overview
@@ -114,19 +117,19 @@ Spatial relationships are calculated using Euclidean distance with configurable 
 When `compute_effect_size=True`, the algorithm compares observed distance distributions against random spatial arrangements using the Kolmogorov-Smirnov test.
 
 Key Statistical Features
-1. Combinatorial Analysis
+1. `Combinatorial Analysis`
 The function uses combinatorial probability to compute expected interaction rates:
 
 Generates all possible (n-1) combinations from n target cell types
 Accounts for the probability of finding specific cell type combinations by chance
 
-2. Bayesian Framework
+2. `Bayesian Framework`
 The theoretical odds calculation follows a Bayesian approach:
 
 P(A|B) framework where A = sampling n-1 events, B = sampling 1 event first
 Incorporates cell type abundance as prior probabilities
 
-3. Block-wise Processing
+3. `Block-wise Processing`
 For large datasets:
 
 Maintains statistical accuracy across data partitions
