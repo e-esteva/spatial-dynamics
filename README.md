@@ -44,9 +44,9 @@ log_odds_matrix = pairwise_logOdds(
     spatial_obj=spatial_data,
     out_dir='./results',
     label='sample1',
-    resolution=0.3774,  # spatial resolution
-    p1=3,              # minimum distance
-    p2=30,             # maximum distance
+    resolution=0.3774,  # instrument resolution (microns/pixel)
+    p1=3,              # minimum distance (microns)
+    p2=30,             # maximum distance (microns)
     compute_effect_size=True
 )
 
@@ -57,7 +57,10 @@ neighbor_matrix, global_log_odds = n_wise_logOdds(
     out_dir='./results',
     label='sample1_simplex',
     target_celltypes=target_celltypes,
-    compute_effect_size=True
+    compute_effect_size=True,
+    resolution=0.3774,
+    p1=3,
+    p2=30
 )
 ```
 
