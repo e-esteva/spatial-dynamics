@@ -5,7 +5,7 @@
 
 A Python package for spatial dynamics analysis of cell neighborhoods in biological data.
 
-Applications
+## Applications
 This function is particularly valuable for:
 
 Tissue microenvironment analysis: Understanding how multiple cell types co-localize
