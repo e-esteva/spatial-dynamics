@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A Python package for spatial dynamics analysis of cell neighborhoods in biological data.
-- **PyPI Package**: [https://pypi.org/project/masquerade/](https://pypi.org/project/spatial-dynamics/0.1.0/)
+- **PyPI Package**: [https://pypi.org/project/spatial-dynamics/](https://pypi.org/project/spatial-dynamics/0.1.0/)
   
 ## Applications
 These functions are particularly valuable for:
